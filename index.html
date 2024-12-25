@@ -284,7 +284,7 @@
 						<li><b>The tail of the distribution</b> - containing high scoring clips, gets manually reviewed by a human to find behaviors of interest. Samples of interest are labeled as "abnormal"/"rare" and normal samples are labeled as "normal"</li>
 						<li><b>The center of the distribution</b> - containing the most "normal" clips, samples here do not get reviewed they just get pseudo-labeled as normal. </li>
 					</ol>
-					We then train a classifier on this labeled dataset and test it on a held-out test set.
+					We then train a graph-based classifier, <a href="https://arxiv.org/abs/1801.07455">ST-GCN</a>, on this labeled dataset and test it on a held-out test set.
 				</td>
 			</tr>
 		</center>
