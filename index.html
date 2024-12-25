@@ -278,7 +278,7 @@
 			<tr>
 				<td>
 					Our pipeline is designed to scan large-scale datasets of animal behavior samples represented as either pose estimated clips or accelerometer measurements.
-					We use first train a state-of-the-art anomaly detector on the dataset, and then rank the dataset according to the resulting anomaly scores.
+					We use first train a <a href="https://github.com/orhir/STG-NF">state-of-the-art anomaly detector</a> on the dataset, and then rank the dataset according to the resulting anomaly scores.
 					We then create a training dataset for a classifier by sampling the resulting score distribution in two regions:
 					<ol>
 						<li><b>The tail of the distribution</b> - containing high scoring clips, gets manually reviewed by a human to find behaviors of interest. Samples of interest are labeled as "abnormal"/"rare" and normal samples are labeled as "normal"</li>
