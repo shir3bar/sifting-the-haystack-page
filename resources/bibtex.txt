@@ -1,6 +1,6 @@
-@inproceedings{author20XXtitle,
-  title={Please cite me},
-  author={Author, First and Author, Second and Author, Third},
-  booktitle={Conference},
-  year={20XX}
-}
+	@article{bar2025sifting,
+		title = {Sifting through the haystack - efficiently finding rare animal behaviors in large-scale datasets},
+		author = {Bar, Shir, Hirschorn, Or, Holzman, Roi and Avidan, Shai},
+		journal={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+		year = {2025},
+	 }
